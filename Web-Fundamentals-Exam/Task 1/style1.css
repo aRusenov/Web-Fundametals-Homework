@@ -1,0 +1,59 @@
+body, div, header, section, figure, img, figcaption, a, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+#wrapper {
+    width: auto;
+    font-family: Verdana, Helvetica;
+    border: dotted 1px #E8E8E8;
+    padding: 5px;
+}
+
+#wrapper > header > h1 {
+    background-color: #EAF6FE;
+    border: solid 1px #DFE2E6;
+    padding: 5px;
+    color: #155C7B;
+    font-size: 23px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    display: inline-block;
+}
+
+section figure {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 110px;
+    vertical-align: top;
+}
+
+section a {
+    text-decoration: none;
+    color: #2475C0;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+section > h2 {
+    color: #2FBFF6;
+    margin: 20px 0 10px 0;
+    font-size: 15px;
+}
+
+section li:hover {
+    background-color: #D3E2ED;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+@media screen and (max-width: 568px) {
+    .navigation {
+        width: 100% !important;
+    }
+
+    .navigation  li, a {
+        width: auto !important;
+    }
+
+    .navigation li {
+        margin-bottom: 10px !important;
+    }
+
+    .footer .navigation li {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    .banner {
+        font-size: 0.6em;
+    }
+
+    .site .container {
+        width: 100%;
+    }
+
+    table, tbody {
+        display: block;
+    }
+
+    table tbody td, table tbody tr {
+        padding: 10px;
+        display: block;
+    }
+
+
+    table tbody tr {
+        margin-bottom: 10px;
+    }
+
+    table tbody tr:nth-of-type(odd) {
+        background-color: #EEEEEF;
+    }
+
+    table tbody tr > td:first-of-type::before {
+        content: "When: ";
+        font-weight: bold;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    table tbody tr > td:first-child+td::before {
+        content: 'When: ';
+        visibility: hidden;
+        font-weight: bold;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    table tbody tr > td:last-of-type::before {
+        content: "What:  ";
+        font-weight: bold;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+}
